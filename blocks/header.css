@@ -1,5 +1,7 @@
-.header{
-  max-height: 243px;}
+.header {
+  max-height: 243px;
+}
+
 .header__title {
   margin: 0 0 0 101px;
   font-size: 64px;
@@ -9,6 +11,7 @@
   font-family: "Tektur", "Arial", sans-serif;
   color: white;
 }
+
 .header__subtitle {
   margin: 0 0 0 101px;
   font-size: 20px;
