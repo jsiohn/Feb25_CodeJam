@@ -1,0 +1,7 @@
+.footer__heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Tektur", "Arial", sans-serif;
+  color: white;
+  margin: 0 auto;
+}

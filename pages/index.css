@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/footer.css);
+.quiz{
+
+}
+.quiz__number{
+  margin: 0 auto;
+}
+.quiz__question{
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  margin-left: auto;
+}
+.cards__list{
+ margin: 0 auto;
+ padding: 0;
+}
+.card{}
+.content{
+  height: 632px;
+  width: 583px;
+  z-index: 1;
+}

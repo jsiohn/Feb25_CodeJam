@@ -1,0 +1,29 @@
+.header{
+  max-height: 243px;}
+.header__title {
+  margin: 0 0 0 101px;
+  font-size: 64px;
+  line-height: auto;
+  max-width: 680px;
+  max-height: 179px;
+  font-family: "Tektur", "Arial", sans-serif;
+  color: white;
+}
+.header__subtitle {
+  margin: 0 0 0 101px;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 680px;
+  max-height: 102px;
+  font-family: "Tektur", "Arial", sans-serif;
+  color: white;
+}
+
+.header__image {
+  height: 734px;
+  width: 734px;
+  position: relative;
+  left: -106px;
+  bottom: -40px;
+  z-index: 0;
+}

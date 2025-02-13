@@ -1,0 +1,7 @@
+.page {
+  background-image: linear-gradient(#b60638, #300a0a);
+  max-width: 1440px;
+  min-height: 1200px;
+  padding-top: 80px;
+  z-index: -1;
+}
