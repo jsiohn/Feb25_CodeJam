@@ -4,11 +4,5 @@
 @import url(../blocks/header.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/quiz.css);
-.card{
-  height: 236px;
-  width: 251px;
-  color: #F2ABAB;
-  border-radius: 20px;
-  border-style: none;
-}
+@import url(../blocks/card.css);
 

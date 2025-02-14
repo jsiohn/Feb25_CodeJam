@@ -1,6 +1,4 @@
-.quiz{
 
-}
 .quiz__container{
   background-color:rgba(252, 141, 152, 0.76);
   height: 632px;
@@ -8,8 +6,11 @@
   border-radius: 20px;
   margin: 0 169px 71px auto;
   border-style: none;
-  padding: 0 23px 0 23px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 23px 18px;
 }
+
 .quiz__title{
   color: white;
   font-family: "Tektur", "Arial", sans-serif;
@@ -30,4 +31,13 @@
   font-size: 24px;
   font-weight: 400;
   padding-bottom: 6px;
+}
+
+.quiz__button{
+  height: 236px;
+  width: 251px;
+  color: #F2ABAB;
+  border-radius: 20px;
+  border-style: none;
+  
 }
