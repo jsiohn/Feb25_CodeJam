@@ -10,7 +10,7 @@
   max-height: 179px;
   font-family: "Tektur", "Arial", sans-serif;
   color: white;
-  font-weight: 450;
+  font-weight: 500;
 }
 
 .header__subtitle {
@@ -30,4 +30,21 @@
   left: -106px;
   bottom: -40px;
   z-index: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    width: 212px;
+    height: 64px;
+    margin-bottom: 8px;
+  }
+
+  .header__subtitle {
+    width: 254px;
+    height: 26px;
+    align-items: center;
+    line-height: 15.6px;
+    font-size: 12px;
+    font-weight: 500;
+  }
 }
