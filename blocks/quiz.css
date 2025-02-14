@@ -1,0 +1,33 @@
+.quiz{
+
+}
+.quiz__container{
+  background-color:rgba(252, 141, 152, 0.76);
+  height: 632px;
+  width: 583px;
+  border-radius: 20px;
+  margin: 0 169px 71px auto;
+  border-style: none;
+  padding: 0 23px 0 23px;
+}
+.quiz__title{
+  color: white;
+  font-family: "Tektur", "Arial", sans-serif;
+  font-weight: 450;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 273px;
+  max-height: 58px;
+  font-size: 48px;
+}
+.quiz__caption{
+  color: white;
+  font-family: "Tektur", "Arial", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 537px;
+  max-height: 56px;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 6px;
+}
