@@ -1,11 +1,30 @@
 .page {
-  background-image: linear-gradient(#b60638,#300A0A);
+  background-image: linear-gradient(#b60638, #300a0a);
   padding-top: 80px;
   height: 100vh;
 }
 
-@media screen and (max-width: 320px) {
-  .page{
-  padding: 19px 35px 0;
+.content__bubble-container {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  z-index: 2;
 }
+
+.content__bubble-image {
+  width: 283px;
+  height: 283px;
+}
+
+.content__bubble-text {
+  font-family: "Tektur", "Arial", sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding: 19px 35px 0;
+  }
 }

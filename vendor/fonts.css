@@ -2,5 +2,6 @@
   font-family: "Tektur";
   font-style: normal;
   font-weight: 500;
-  src: url(./fonts/Tektur-VariableFont_wdth\wght.ttf);
+  src: url("../vendor/fonts/Tektur-VariableFont_wdth\,wght.ttf")
+    format("truetype");
 }

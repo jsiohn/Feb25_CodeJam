@@ -3,6 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
 const cardButton = document.querySelectorAll("#radio");
+const optIn = document.querySelector(".content__bubble-image");
 
 /* -------------------------------------------------------------------------- */
 /*                                  Variables                                 */
@@ -32,9 +33,13 @@ function calculateSum() {
 /*                                  Event Listeners                           */
 /* -------------------------------------------------------------------------- */
 
-cardButton.forEach((el) => {
-  el.addEventListener("click", () => {
+cardButton.forEach((e) => {
+  e.addEventListener("click", () => {
     userAnswers.push(getRadioValue());
     console.log(userAnswers);
   });
+});
+
+optIn.addEventListener("click", () => {
+  console.log("clicked!");
 });

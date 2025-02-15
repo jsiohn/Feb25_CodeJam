@@ -31,12 +31,21 @@
         </p>
       </header>
       <main class="content">
+        <div class="content__bubble-container">
+          <img
+            src="./images/Text_Bubble.png"
+            alt="Text_Bubble"
+            class="content__bubble-image"
+          />
+          <p class="content__bubble-text">Click here to opt in text messages</p>
+        </div>
         <img src="./images/Cupid.png" alt="Eros image" class="content__image" />
         <div class="quiz">
           <h2 class="quiz__number">Question 1:</h2>
           <p class="quiz__question">Which photo best describes your SO?</p>
           <div class="cards">
             <div class="card">
+              <!-- Added name, id, and value to radio buttons -->
               <input
                 type="radio"
                 name="radio"
@@ -51,7 +60,6 @@
               />
             </div>
             <div class="card">
-              <!-- Added name, id, and value to radio buttons -->
               <input
                 type="radio"
                 name="radio"
