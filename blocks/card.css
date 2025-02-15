@@ -1,26 +1,27 @@
-.card{
+.card {
   height: 200px;
   width: 265px;
   border-radius: 20px;
   padding: 15px;
 }
-.card__image{
+.card__image {
   height: 200px;
   width: 265px;
   border-radius: 20px;
   padding: auto;
 }
-.card__button{
-  display: none;
+.card__button {
+  /* temporary removal for visibility/testing */
+  /* display: none; */
   cursor: pointer;
 }
 
-@media screen and (max-width:320px){
-  .card__image{
+@media screen and (max-width: 320px) {
+  .card__image {
     height: 97px;
     width: 115px;
   }
-  .card{
+  .card {
     width: 85%;
     height: 85%;
     padding: 0;

@@ -18,44 +18,88 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <title>Eros</title>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <h1 class="header__title">Need help this Valentine's Day?</h1>
         <p class="header__subtitle">
-          Answer 5 quick questions and Eros will give you a  list of
-          V-Day ideas. At the end of the quiz submit your phone number
-          and Eros will send you a Valentine's Day reminder.
+          Answer 5 quick questions and Eros will give you a list of V-Day ideas.
+          At the end of the quiz submit your phone number and Eros will send you
+          a Valentine's Day reminder.
         </p>
       </header>
       <main class="content">
-        <img src="./images/Cupid.png" alt="Eros image" class="content__image"/>
+        <img src="./images/Cupid.png" alt="Eros image" class="content__image" />
         <div class="quiz">
           <h2 class="quiz__number">Question 1:</h2>
           <p class="quiz__question">Which photo best describes your SO?</p>
-            <div class="cards">
-              <div class="card">
-                <input type="radio" class="card__button">
-                <img src="./images/Question 1/Question_1_Moody.jpg" alt="" class="card__image"/>
-              </div>
-              <div class="card">
-                <input type="radio" class="card__button">
-                <img src="./images/Question 1/Question_1_Analytical.jpg" alt="" class="card__image"/>
-              </div>
-              <div class="card">
-                <input type="radio"class="card__button">
-                <img src="./images/Question 1/Question_1_Cutesy.jpg" alt="" class="card__image"/>
-              </div>
-              <div class="card">
-                <input type="radio" class="card__button">
-                <img src="./images/Question 1/Question_1_Outdoorsy.jpg" alt="" class="card__image"/>
-              </div>
+          <div class="cards">
+            <div class="card">
+              <input
+                type="radio"
+                name="radio"
+                id="radio"
+                class="card__button"
+                value="1"
+              />
+              <img
+                src="./images/Question 1/Question_1_Moody.jpg"
+                alt=""
+                class="card__image"
+              />
             </div>
+            <div class="card">
+              <!-- Added name, id, and value to radio buttons -->
+              <input
+                type="radio"
+                name="radio"
+                id="radio"
+                class="card__button"
+                value="2"
+              />
+              <img
+                src="./images/Question 1/Question_1_Analytical.jpg"
+                alt=""
+                class="card__image"
+              />
+            </div>
+            <div class="card">
+              <input
+                type="radio"
+                name="radio"
+                id="radio"
+                class="card__button"
+                value="3"
+              />
+              <img
+                src="./images/Question 1/Question_1_Cutesy.jpg"
+                alt=""
+                class="card__image"
+              />
+            </div>
+            <div class="card">
+              <input
+                type="radio"
+                name="radio"
+                id="radio"
+                class="card__button"
+                value="4"
+              />
+              <img
+                src="./images/Question 1/Question_1_Outdoorsy.jpg"
+                alt=""
+                class="card__image"
+              />
+            </div>
+          </div>
         </div>
       </main>
       <footer class="footer">
-        <p class="footer__heading"> &copy; Anna Matos, Devin Bhavsar, Jamari Boyd, & John Siordia</p>
+        <p class="footer__heading">
+          &copy; Anna Matos, Devin Bhavsar, Jamari Boyd, & John Siordia
+        </p>
       </footer>
     </div>
   </body>
