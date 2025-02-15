@@ -1,50 +1,37 @@
-.quiz__container {
-  background-color: rgba(252, 141, 152, 0.76);
-  height: 632px;
-  width: 583px;
+.quiz{
+  background-color: rgb(252, 141, 152, 44%);
+  height: 583px;
+  width: 608px;
   border-radius: 20px;
-  margin: 0 169px 71px auto;
-  border-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 23px 18px;
 }
-
-.quiz__title {
-  color: white;
+.quiz__number{
   font-family: "Tektur", "Arial", sans-serif;
-  font-weight: 450;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 273px;
-  max-height: 58px;
+  font-weight: 250;
   font-size: 48px;
-}
-.quiz__caption {
   color: white;
-  font-family: "Tektur", "Arial", sans-serif;
   margin: 0 auto;
   text-align: center;
-  max-width: 537px;
-  max-height: 56px;
-  font-size: 24px;
-  font-weight: 400;
-  padding-bottom: 6px;
+}
+.quiz__question{
+  font-family: "Tektur", "Arial", sans-serif;
+  font-weight: 250;
+  font-size: 20px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.quiz__button {
-  height: 236px;
-  width: 251px;
-  color: #f2abab;
-  border-radius: 20px;
-  border-style: none;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 320px) {
-  .quiz__container {
-    width: 250px;
-    height: 253px;
-    border-radius: 20px;
+@media screen and (max-width:320px){
+  .quiz{
+    height: 100%;
+    width: 100%;
+  }
+  .quiz__number{
+    font-size: 16px;
+    padding: 13px 0 11px;
+  }
+  .quiz__question{
+    font-size: 12px;
+    padding-bottom: 11px;
   }
 }

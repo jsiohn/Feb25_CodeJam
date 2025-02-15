@@ -1,12 +1,11 @@
 .page {
-  background-image: linear-gradient(#b60638, #300a0a);
-  min-height: 1200px;
+  background-image: linear-gradient(#b60638,#300A0A);
   padding-top: 80px;
+  height: 100vh;
 }
 
 @media screen and (max-width: 320px) {
-  .page {
-    width: 320px;
-    height: 568px;
-  }
+  .page{
+  padding: 19px 35px 0;
+}
 }

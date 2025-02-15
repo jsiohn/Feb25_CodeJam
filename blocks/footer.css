@@ -1,7 +1,19 @@
-.footer__heading {
-  display: flex;
-  justify-content: center;
+.footer{
+  max-height: 100px;
+  background-color: ;
+}
+.footer__heading{
   font-family: "Tektur", "Arial", sans-serif;
   color: white;
   margin: 0 auto;
+  padding-top: 50px;
+}
+
+@media screen and (max-width:320px){
+  .footer{
+    height: 100%;
+  }
+  .footer__heading{
+    padding-bottom: 100px;
+  }
 }

@@ -1,0 +1,21 @@
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.content__image{
+  height: 734px;
+  width: 734px;
+  position: relative;
+  left: -106px;
+  bottom: -40px;
+}
+
+@media screen and (max-width: 320px){
+  .content{
+    flex-direction: column;
+  }
+  .content__image{
+    display: none;
+  }
+}
