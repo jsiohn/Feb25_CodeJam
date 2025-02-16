@@ -1,10 +1,10 @@
-.quiz{
+.quiz {
   background-color: rgb(252, 141, 152, 44%);
-  height: 583px;
+  height: 625px;
   width: 608px;
   border-radius: 20px;
 }
-.quiz__number{
+.quiz__number {
   font-family: "Tektur", "Arial", sans-serif;
   font-weight: 250;
   font-size: 48px;
@@ -12,7 +12,7 @@
   margin: 0 auto;
   text-align: center;
 }
-.quiz__question{
+.quiz__question {
   font-family: "Tektur", "Arial", sans-serif;
   font-weight: 250;
   font-size: 20px;
@@ -21,16 +21,30 @@
   text-align: center;
 }
 
-@media screen and (max-width:320px){
-  .quiz{
+.quiz__submit-button {
+  background-color: #b01534;
+  color: white;
+  font-family: "Tektur", "Arial", sans-serif;
+  font-weight: 250;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 20px auto 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .quiz {
     height: 100%;
     width: 100%;
   }
-  .quiz__number{
+  .quiz__number {
     font-size: 16px;
     padding: 13px 0 11px;
   }
-  .quiz__question{
+  .quiz__question {
     font-size: 12px;
     padding-bottom: 11px;
   }

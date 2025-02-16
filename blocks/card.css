@@ -10,10 +10,24 @@
   border-radius: 20px;
   padding: auto;
 }
-.card__button {
-  /* temporary removal for visibility/testing */
-  /* display: none; */
+/* .card__button {
+  display: none;
   cursor: pointer;
+} */
+
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type="radio"] + img {
+  cursor: pointer;
+}
+
+[type="radio"]:checked + img {
+  border: 6px solid #b01534;
 }
 
 @media screen and (max-width: 320px) {

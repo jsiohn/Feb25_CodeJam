@@ -11,6 +11,10 @@
   bottom: -40px;
 }
 
+.content__bubble-text {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 320px) {
   .content {
     flex-direction: column;
