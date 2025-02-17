@@ -1,13 +1,13 @@
 .footer {
   max-height: 100px;
-  /* Added background color, was missing */
-  background-color: #000;
+  background: none;
 }
 .footer__heading {
   font-family: "Tektur", "Arial", sans-serif;
   color: white;
+  text-align: center;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 320px) {
