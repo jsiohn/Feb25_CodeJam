@@ -57,6 +57,10 @@ function sendSMS() {
       })
       .then((data) => {
         console.log(data);
+      })
+      .then(() => {
+        userAnswer = "";
+        console.log(userAnswer); // debugging
       });
   } else {
     alert("Please enter a valid phone number");
